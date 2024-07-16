@@ -18,7 +18,7 @@ namespace demo_oob_3.binding
         {
         }
         public int Id { get; set; }
-        public string Name { get; set; }    
+        public string Name { get; set; }
         public int Age { get; set; }
         public void getemptype()
         {
@@ -28,5 +28,6 @@ namespace demo_oob_3.binding
         {
             Console.WriteLine($"employee : id = {Id} , name = {Name} , age = {age}");
         }
-    }
+    }    
 }
+ 
